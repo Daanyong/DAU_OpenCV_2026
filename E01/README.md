@@ -94,6 +94,3 @@
         cv.imwrite('ROI.jpg', ROI)
         print('ROI 저장 완료')
   <img width="514" height="389" alt="image" src="https://github.com/user-attachments/assets/c9b7e61c-05b2-4e5b-af2a-1fc50e2e4d10" />
-
-  #### 결과화면
-  <img width="1076" alt="image" src="https://github.com/user-attachments/assets/c11ce72d-a42a-4fa1-a72a-44385b8108eb" />
