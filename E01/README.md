@@ -1,4 +1,4 @@
-# L01. OpenCV - Homework
+# E01. Open CV 실습
 
   ## 01. 이미지 불러오기 및 그레이스케일 변환
   OpenCV를 사용하여 이미지를 불러오고 화면에 출력
