@@ -50,6 +50,7 @@
     elif event == cv.EVENT_LBUTTONUP or event == cv.EVENT_RBUTTONUP:
         drawing = False
   #### 결과화면
+  <img width="1068" height="727" alt="brush_control" src="https://github.com/user-attachments/assets/6b4f847b-53ba-46ff-81b5-177178652c01" />
 
 
 ---
