@@ -81,7 +81,7 @@
         drawing = False
         ROI = img[iy:y, ix:x]
         cv.imshow('ROI', ROI)
-  s<img width="1062" height="693" alt="image" src="https://github.com/user-attachments/assets/6a5ac705-ac56-438e-b9a5-3b95b1721bb7" />
+  <img width="1062" height="693" alt="image" src="https://github.com/user-attachments/assets/6a5ac705-ac56-438e-b9a5-3b95b1721bb7" />
 
   #### 요구사항 5: r키를 누르면 영역 선택을 리셋하고 처음부터 다시 선택
     if cv.waitKey(1) == ord('r'):
