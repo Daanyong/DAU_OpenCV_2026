@@ -74,11 +74,15 @@
             tmp_img = img.copy()
             cv.rectangle(tmp_img, (ix,iy), (x,y), (0,0,255), 2)
             cv.imshow('Drawing', tmp_img)
+  <img width="1065" height="688" alt="image" src="https://github.com/user-attachments/assets/8f2407bc-da99-45a9-8e2e-e5155983d703" />
+
   #### 요구사항 4: 마우스를 놓으면 해당 영역을 잘라내서 별도의 창에 출력
     elif event == cv.EVENT_LBUTTONUP:
         drawing = False
         ROI = img[iy:y, ix:x]
         cv.imshow('ROI', ROI)
+  s<img width="1062" height="693" alt="image" src="https://github.com/user-attachments/assets/6a5ac705-ac56-438e-b9a5-3b95b1721bb7" />
+
   #### 요구사항 5: r키를 누르면 영역 선택을 리셋하고 처음부터 다시 선택
     if cv.waitKey(1) == ord('r'):
         ROI = None
@@ -89,5 +93,7 @@
     elif cv.waitKey(1) == ord('s') and ROI is not None:
         cv.imwrite('ROI.jpg', ROI)
         print('ROI 저장 완료')
+  <img width="514" height="389" alt="image" src="https://github.com/user-attachments/assets/c9b7e61c-05b2-4e5b-af2a-1fc50e2e4d10" />
+
   #### 결과화면
   <img width="1076" alt="image" src="https://github.com/user-attachments/assets/c11ce72d-a42a-4fa1-a72a-44385b8108eb" />
