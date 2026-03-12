@@ -331,8 +331,8 @@
       farthest_roi = max(results.items(), key=lambda x: x[1]["mean_depth"])[0]
       
       print("===== 결과 해석 =====")
-      print(f"disparity 기준 가장 가까운 ROI: {closest_roi}")
-      print(f"disparity 기준 가장 먼 ROI: {farthest_roi}")
+      print(f"가장 가까운 ROI: {closest_roi}")
+      print(f"가장 먼 ROI: {farthest_roi}")
       
       # -----------------------------
       # 5. disparity 시각화
@@ -464,5 +464,6 @@
     farthest_roi = max(results.items(), key=lambda x: x[1]["mean_depth"])[0]
   #### 시각화 결과화면
 <img width="673" height="608" alt="p3_Result" src="https://github.com/user-attachments/assets/a6c6b32c-6ce7-4d03-a05d-5c024694bd00" />
+
   #### 결과 해석 결과화면
-  <img width="212" height="40" alt="image" src="https://github.com/user-attachments/assets/ac4736b6-90bc-4c4a-bc33-a7e391f8233a" />
+<img width="134" height="40" alt="image" src="https://github.com/user-attachments/assets/8030178f-a205-4a53-9af5-be7a5de67016" />
