@@ -86,17 +86,11 @@ for name, (x, y, w, h) in rois.items():
 # -----------------------------
 # 4. 결과 출력
 # -----------------------------
-print("===== ROI별 평균 Disparity / Depth =====")
-for name, result in results.items():
-    print(f"[{name}]")
-    print(f"  Mean Disparity : {result['mean_disparity']:.4f}")
-    print(f"  Mean Depth     : {result['mean_depth']:.4f}")
-
 # 요구사항 4: 세 ROI 중 어떤 영역이 가장 가까운지, 어떤 영역이 가장 먼지 해석
 closest_roi = max(results.items(), key=lambda x: x[1]["mean_disparity"])[0]
 farthest_roi = max(results.items(), key=lambda x: x[1]["mean_depth"])[0]
 
-print("===== 거리 해석 =====")
+print("===== 결과 해석 =====")
 print(f"가장 가까운 ROI: {closest_roi}")
 print(f"가장 먼 ROI: {farthest_roi}")
 
