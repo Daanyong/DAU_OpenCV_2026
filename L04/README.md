@@ -128,7 +128,7 @@
     plt.axis('off')
     plt.show()
   #### 결과화면
-<img width="727" height="236" alt="image" src="https://github.com/user-attachments/assets/5249226c-0d93-48f2-b903-8d0e227687a5" />
+<img width="713" height="228" alt="image" src="https://github.com/user-attachments/assets/b7ab1518-3696-4734-a21a-6681aa070f94" />
 
 ---
   ## 03. 호모그래피를 이용한 이미지 정합
