@@ -53,7 +53,7 @@
     print(f'테스트 정확도: {acc}')
     
   #### 모델 훈련 과정 및 결과화면
-<img width="1223" height="274" alt="MNIST_Train_epoch" src="https://github.com/user-attachments/assets/4b9e4ca6-2da4-4813-8b75-82600c8b16db" />
+<img width="658" height="143" alt="MNIST_Train_epoch" src="https://github.com/user-attachments/assets/c4e6140b-5b59-4539-b5b6-50c655f4dde7" />
 정확도: 0.97
 
 
